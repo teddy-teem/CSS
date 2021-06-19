@@ -1,0 +1,24 @@
+#container{
+    width: 100vw;
+    
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+
+    display: flex;
+  
+}
+.item{
+    background-color: lightcoral;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    padding: 32px;
+    font-size: 24px;
+    text-align: center;
+    flex-grow: 0;
+    flex-basis: 120px;
+}
+.item:nth-child(2){
+    background-color: lightseagreen;
+    flex-shrink: 1;;
+} 

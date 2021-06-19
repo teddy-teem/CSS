@@ -1,0 +1,73 @@
+.tabs {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    overflow: hidden; 
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.tabs  label{
+      color: #067c23;
+      cursor: pointer;
+      display: block;
+      text-align: center; 
+}
+.tabs [class^="tab"] [type="radio"],
+.tabs [class*=" tab"] [type="radio"] {
+  border-bottom: 1px solid rgba(239, 237, 239, 0.5);
+  cursor: pointer;
+  appearance: none;
+  /* display: block; */
+  width: 100%;
+  transition: all 0.3s ease-in-out; 
+}
+
+.tabs [class^="tab"] [type="radio"]:hover, 
+.tabs:focus {
+        border-bottom: 5px solid #fd264f; 
+}
+
+.tabs [class^="tab"] [type="radio"]:checked {
+        border-bottom: 12px solid #43e650;
+}
+
+
+
+  /* 
+    
+
+  
+      
+
+      .tabs [class^="tab"] [type="radio"] + div,
+      .tabs [class*=" tab"] [type="radio"] + div {
+        display: block;
+        opacity: 0;
+        padding: 2rem 0;
+        width: 100%;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+    .tabs .tab-2 {
+      width: 33%; 
+    }
+      .tabs .tab-2 [type="radio"] + div {
+        width: 100%;
+        text-align: center;
+    }
+      .tabs .tab-2 [type="radio"]:checked + div {
+        text-align: center; 
+    }
+      .tabs .tab-2:nth-child(2) [type="radio"] + div {
+        text-align: center; 
+    }
+      .tabs .tab-2:nth-child(2) [type="radio"]:checked + div {
+        text-align: center;
+     }
+     .tabs .tab-2:nth-child(3) [type="radio"] + div {
+        text-align: center; 
+    }
+      .tabs .tab-2:nth-child(3) [type="radio"]:checked + div {
+        text-align: center;
+     } */

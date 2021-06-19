@@ -1,0 +1,10 @@
+#shd{
+    color: rgb(26, 117, 121);
+    text-shadow: 4px 4px 10px grey;
+    height: 400px;
+    width: 600px;
+    background-color:cornsilk ;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px crimson;
+
+}

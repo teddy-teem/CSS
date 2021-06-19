@@ -1,0 +1,36 @@
+h1{
+    color: rgb(9, 65, 114);
+    text-align: center;
+
+}
+p{
+    color: brown;
+    text-align:justify;
+    text-decoration:none;
+    font-weight: 800;
+    text-transform: capitalize;
+    word-spacing: 10px;
+    font-family: 'Original Surfer', cursive;
+}
+#first-para{
+    border: 3px solid blue;
+    /* padding: 16px;   space inside the border */
+    padding: 10px 20px 30px 40px;
+
+}
+#second-para{
+    /* border-width: 2px;
+    border-color: red; */
+    /* border-style: solid;
+    border-top-style: solid;
+    border-left-style: dashed;
+    border-right-style: double;
+    border-bottom-style: dotted;
+    border-right-color: green;
+    border-left-color: maroon; */
+    border-radius: 10%;
+    border-bottom: 4px dotted green;
+    border-top: 10px solid pink;
+    border-left: 8px dashed maroon;
+    
+}

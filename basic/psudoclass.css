@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.form-box{
+    text-align: justify;
+    background-color:whitesmoke;
+    padding: 36px;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 5px 5px 5px steelblue;
+
+}
+.input-item{
+    width: 100%;
+    height: 30px;
+    border: 1px solid whitesmoke;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 8px;
+    outline: none;
+
+}
+.input-item:required{
+    background-color: brown;
+}
+
+.input-item:focus{
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+.input-item:disabled{
+    cursor: not-allowed;
+}
+
+.btn-register{
+    background-color: seagreen;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 8px;
+    border-style: none;
+    color: whitesmoke;
+}
+

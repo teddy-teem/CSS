@@ -1,0 +1,26 @@
+ article{
+     padding: 40px;
+     margin-bottom: 36px;
+     font-size: 24px;
+     line-height: 1.4;
+     background-color: white;
+     border-radius: 8px;
+     box-shadow: 0px 5px 10px rgb(95, 87, 87) ;
+     text-align: justify;
+ }
+ .heading{
+     font-size: 36px;
+     text-align: center;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+ /* article p{
+     background-color: teal;
+ } */
+
+ /* article > p{
+     background-color: teal;
+ } */
+ div+p{
+     background-color: teal;
+ }

@@ -1,0 +1,12 @@
+.image-item{
+    width: 250px;
+    height: 400px;
+}
+.image-wrapper{
+    display: inline;
+
+}
+.menu-item{
+    display: block;
+    visibility: hidden;
+} 

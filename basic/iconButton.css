@@ -1,0 +1,38 @@
+#btn-login{
+    background-color:rgb(42, 77, 235);
+    padding: 8px 16px ;
+    border: none;
+    border-radius: 8px;
+    outline: none; 
+    cursor: pointer;
+    color: white;
+
+}
+#btn-login:hover{
+    background-color: mediumblue;
+}
+#btn-signup{
+    background-color:rgb(238, 155, 77);
+    border: 2px solid rgb(209, 235, 233);
+    padding: 8px 16px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+}
+#btn-signup:hover{
+    background-color: rgb(231, 76, 56);
+}
+#btn-disable{
+    background-color:rgb(0, 7, 7);
+    border: 2px solid rgb(209, 235, 233);
+    padding: 8px 16px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    
+}
+.label{
+    padding-left: 8px;
+}

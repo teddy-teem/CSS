@@ -1,0 +1,9 @@
+img{
+    height: 700px;
+    width: 560px;
+}
+#wrapper{
+    width: 560px;
+    height: 700px;
+    overflow: scroll;
+}
