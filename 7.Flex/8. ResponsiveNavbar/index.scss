@@ -1,0 +1,50 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: seagreen;
+    margin: 10px;
+}
+
+.container{
+    list-style: none;
+    border: 5px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+
+
+
+    li{
+        padding-top: 15px;
+        padding-right: 20px;
+        padding-left: 20px;
+        width: 20%;
+        color: white;
+        border-radius: 5px;
+        input{
+            height: 50px;
+            width: 200px;
+            border: none;
+            border-radius: 10px;
+           
+        }
+    }
+    
+  
+    li:nth-child(1){
+        background-color: royalblue;
+    }
+    li:nth-child(2){
+        background-color: rgb(141, 14, 14);
+    }
+    // li:nth-child(3){
+    //     background-color: rgb(16, 110, 110);
+    // }
+    li:nth-child(4){
+        background-color: rgb(71, 126, 126);
+    }
+}
+

@@ -1,0 +1,74 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: seagreen;
+    margin: 10px;
+}
+
+.container{
+ 
+    border: 5px solid white;
+    display: flex;
+
+
+    .home{
+            // flex: grow, shrink, basis ; flex: 1 1 200px;
+
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: 200px;
+    }
+    .logout{
+            // flex: grow, shrink, basis ; flex: 1 1 200px;
+
+        flex-grow: 0;  //Logout will grow twice than home
+        flex-basis: 200px;
+        flex-shrink: 1;
+    }    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    div{
+        padding: 10px;
+        text-align: center;
+        font-size: 2em;
+        color: seashell;
+        
+    }
+    div:nth-child(1){
+        background-color: royalblue;
+    }
+    div:nth-child(2){
+        background-color: rgb(141, 14, 14);
+    }
+    div:nth-child(3){
+        background-color: rgb(16, 110, 110);
+    }
+    div:nth-child(4){
+        background-color: rgb(71, 126, 126);
+    }
+}
+

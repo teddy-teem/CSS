@@ -1,0 +1,76 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: seagreen;
+    margin: 10px;
+}
+
+.container{
+ 
+    border: 5px solid white;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+
+/*
+    align-items: center;
+    justify-content: center;
+    will make all them into center
+    */
+   
+
+    .logout{
+        align-self: flex-start;
+    }
+    .home{
+        align-self: flex-end;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    div{
+        padding: 10px;
+        text-align: center;
+        font-size: 2em;
+        color: seashell;
+        
+    }
+    div:nth-child(1){
+        background-color: royalblue;
+    }
+    div:nth-child(2){
+        background-color: rgb(141, 14, 14);
+    }
+    div:nth-child(3){
+        background-color: rgb(16, 110, 110);
+    }
+    div:nth-child(4){
+        background-color: rgb(71, 126, 126);
+    }
+  
+
+}
+
